@@ -1,8 +1,8 @@
-#!/usr/bin/python3
+#!/usr/local/bin/python3
 # -*- coding: utf-8 -*-
 
 # Imports decimal module to assure precision
-from decimal import *
+from decimal import Decimal, getcontext, FloatOperation
 
 
 # Sets the trap just to assure consistency in operations
